@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border: none;
+  list-style: none;
+  text-decoration: none;
+  outline: none;
+  font-size: 1rem;
+}
+
+body {
+  background: #0e2130;
+}
+
+footer {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 10px 10px;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+article {
+  align-items: center;
+  flex-direction: row;
+  display: flex;
+  color: white;
+  background: black; /* Old browsers */
+  background: -moz-linear-gradient(left, black 0%, black 50%, #0e2130 85%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    left, black 50%, #0e2130 85%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to right, black 50%, #0e2130 85%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+section{
+  text-align: center;
+  padding: 20px 20px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#idicons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 20px 20px;
+  justify-content: space-evenly;
+  color: white;
+  font-weight: bold;
+}
+
+#idinstagram {
+  text-shadow: 0 0 1px #ff4da6, 0 0 2px #ff4da6, 0 0 3px #ff4da6,
+    0 0 4px #ff4da6, 0 0 5px #ff4da6, 0 0 6px #ff4da6, 0 0 7px #ff4da6;
+}
+
+#idfacebook {
+  text-shadow: 0 0 1px #1877f2, 0 0 2px #1877f2, 0 0 3px #1877f2,
+    0 0 4px #1877f2, 0 0 5px #1877f2, 0 0 6px #1877f2, 0 0 7px #1877f2;
+}
+
+#idyoutube {
+  text-shadow: 0 0 1px #f00, 0 0 2px #f00, 0 0 3px #f00, 0 0 4px #f00,
+    0 0 5px #f00, 0 0 6px #f00, 0 0 7px #f00;
+}
+
+#idtwitter {
+  text-shadow: 0 0 1px #1d9bf0, 0 0 2px #1d9bf0, 0 0 3px #1d9bf0,
+    0 0 4px #1d9bf0, 0 0 5px #1d9bf0, 0 0 6px #1d9bf0, 0 0 7px #1d9bf0;
+}
+
+#idlinkedin {
+  text-shadow: 0 0 1px #0a66c2, 0 0 2px #0a66c2, 0 0 3px #0a66c2,
+    0 0 4px #0a66c2, 0 0 5px #0a66c2, 0 0 6px #0a66c2, 0 0 7px #0a66c2;
+}
+
+#idgithub {
+  text-shadow: 0 0 1px #161b22, 0 0 2px #161b22, 0 0 3px #161b22,
+    0 0 4px #161b22, 0 0 5px #161b22, 0 0 6px #161b22, 0 0 7px #161b22;
+}
+
+#idstackoverflow {
+  text-shadow: 0 0 1px #f48225, 0 0 2px #f48225, 0 0 3px #f48225,
+    0 0 4px #f48225, 0 0 5px #f48225, 0 0 6px #f48225, 0 0 7px #f48225;
+}
+
+#idtwitch {
+  text-shadow: 0 0 1px #7f00e6, 0 0 2px #7f00e6, 0 0 3px #7f00e6,
+    0 0 4px #7f00e6, 0 0 5px #8200e6, 0 0 6px #9200e6, 0 0 7px #9200e6;
+}
+
+#imagenseccion {
+  background-color: black;
+}
+
