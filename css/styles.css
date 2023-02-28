@@ -21,14 +21,14 @@ body {
 body::after {
   content: '';
   display: block;
-  height: 200px; 
+  height: 150px; 
 }
 
 footer {
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 200px;
+  height: 150px;
   align-items: center;
   min-height:50px;
   display: flex;
@@ -124,6 +124,48 @@ a {
 }
 
 #tituloredes{
+  font-size: 20px;
   color: white;
   font-weight: bold;
+}
+
+/* Diseño responsivo para tablets- Habilitamos menú de dos filas en flex */
+@media only screen and (min-width: 0px) and (max-width: 980px) {
+
+  body {
+    display:flex;
+    flex-direction: column;
+  }
+  footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px 10px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-grow: 1;
+  }
+
+  article {
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: unset;
+  }
+
+  #idicons {
+    display: flex;
+    align-items: center;
+    padding: 20px 20px;
+    justify-content: space-between;
+    color: white;
+    font-weight: bold;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
 }
