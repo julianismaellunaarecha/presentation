@@ -11,17 +11,24 @@
 
 body {
   background: #0e2130;
+  display:flex; 
+  flex-direction:column;
+  min-height: 100vh;
 }
 
 footer {
+  align-items: center;
+  min-height:50px;
   display: flex;
   background-color: rgba(0, 0, 0, 0.7);
   padding: 10px 10px;
   flex-direction: column;
   flex-wrap: wrap;
+  flex-grow: 1;
 }
 
 article {
+  flex: 1;
   align-items: center;
   flex-direction: row;
   display: flex;
@@ -44,16 +51,20 @@ section{
 a {
   text-decoration: none;
   color: inherit;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 #idicons {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 40px;
   padding: 20px 20px;
-  justify-content: space-evenly;
+  justify-content: space-between;
   color: white;
   font-weight: bold;
+  flex-grow: 1;
 }
 
 #idinstagram {
@@ -100,3 +111,7 @@ a {
   background-color: black;
 }
 
+#tituloredes{
+  color: white;
+  font-weight: bold;
+}
